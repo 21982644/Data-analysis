@@ -3,10 +3,7 @@ Aim of this program is to ouput number of cases, death, number of days/values gr
 if the user input country or continent as the key of the dictonary. If there is anything wrong with the file, terminate the
 program and return None and show the error message on display'''
 
-# Student Name: Xiaoyu Yin
-# Student ID: 21982644
-
-def main(csvfile):
+def main(csvfile):https://github.com/21982644/CITS1401/blob/master/Project2/21982644.py
     '''main function that output the sorted data '''
     try:
         countries, continents, requiredHeader = read_file (csvfile)
@@ -175,4 +172,3 @@ def findcol(header,requiredCol):
         if x == None:
             return []                            # return empty list iff any of the required column is missing 
     return headerInd                             # return the index of each required column
-print ("dsds")
