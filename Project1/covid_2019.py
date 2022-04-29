@@ -232,6 +232,3 @@ def correlComstd(country1, country2): # Calculate the correlation of standard de
     std = round(std,4)
     
     return std
-
-class CountryCovid:
-    months 
